@@ -10,7 +10,7 @@ export const professionTexts = ["a    JAVA ", "a Front-End", "a Back-End"];
 
 export const socialIcons = [
   { icon: "bx bxl-github", link: "https://github.com/everestp" },
-  { icon: "bx bxl-linkedin", link: "https://linkedin.com/everestp" },
+  { icon: "bx bxl-linkedin", link: "https://www.linkedin.com/in/everestp/" },
   { icon: "bx bxl-facebook-square", link: "https://facebook.com/evrstp" },
 
 ];
