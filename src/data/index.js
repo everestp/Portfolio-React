@@ -23,69 +23,88 @@ Driven by curiosity and a commitment to continuous learning, Everest actively ex
 
 export const skillCards = [
   {
-    icon: "bx bx-pen",
-    title: "Design",
+    icon: "bx bxl-spring-boot",
+    title: "Spring Boot",
     description:
-      "Design is all about creating visually appealing and user-friendly interfaces. I specialize in UI/UX design, ensuring every project balances aesthetics with functionality. Using tools like Figma and Adobe XD, I craft intuitive layouts that enhance user experience. From wireframes to high-fidelity prototypes, I focus on clean, minimal, and modern designs tailored for web and mobile applications.",
-    projectCount: 3,
-    hoverPosition: {
-      large: "bottom",
-      small: "bottom",
-    },
-  },
-  {
-    icon: "bx bx-camera",
-    title: "Photography",
-    description:
-      "Photography is an essential part of digital content creation, capturing high-quality visuals that enhance branding and storytelling. I have experience in portrait, landscape, and product photography, ensuring every image is edited and optimized for the web. Understanding lighting, composition, and post-processing allows me to create compelling images that elevate visual communication across various platforms.",
+      "I build scalable REST APIs and microservices with Spring Boot, focusing on security, performance, and database integration.",
     projectCount: 4,
-    hoverPosition: {
-      large: "bottom",
-      small: "bottom",
-    },
+    links: [
+      "https://github.com/everestp/blogg",
+      "https://github.com/everestp/ecommerce",
+      "https://github.com/everestp/video-streaming-backend-",
+      "https://github.com/everestp/chat-app-backend",
+    ],
+    hoverPosition: { large: "bottom", small: "bottom" },
   },
   {
-    icon: "bx bxs-file-doc",
-    title: "Front-End Dev",
+    icon: "bx bxl-react",
+    title: "React Native",
     description:
-      "Front-end development is about bringing designs to life through clean and efficient code. I specialize in HTML, CSS, and JavaScript, along with frameworks like React to build dynamic and interactive web applications. My focus is on performance, accessibility, and responsiveness, ensuring that every website functions flawlessly across all devices and screen sizes.",
+      "I develop cross-platform mobile apps with React Native, leveraging hooks, Redux, and third-party libraries for efficiency.",
     projectCount: 4,
-    hoverPosition: {
-      large: "bottom",
-      small: "bottom",
-    },
+    links: [
+      "https://github.com/everestp/blogg",
+      "https://github.com/everestp/ecommerce-frontdend-react",
+      "https://github.com/everestp/video-streaming-frontend",
+      "https://github.com/everestp/chat-app-frontend",
+    ],
+    hoverPosition: { large: "bottom", small: "bottom" },
   },
   {
-    icon: "bx bxs-devices",
-    title: "RWD",
+    icon: "bx bx-cloud",
+    title: "DevOps & CI/CD",
     description:
-      "In today's digital world, ensuring a seamless user experience across all devices is crucial. I implement responsive design techniques using modern CSS frameworks like Tailwind CSS and Bootstrap. By employing fluid grids, flexible layouts, and media queries, I create web pages that look great and function perfectly on desktops, tablets, and smartphones.",
-    projectCount: 3,
-    hoverPosition: {
-      large: "top",
-      small: "bottom",
-    },
+      "I automate deployments with CI/CD pipelines using Docker, Kubernetes, Terraform, and AWS for scalability and reliability.",
+    projectCount: 4,
+    links: [
+      "https://github.com/everestp/devops-ci-cd1",
+      "https://github.com/everestp/devops-ci-cd2",
+      "https://github.com/everestp/devops-ci-cd3",
+      "https://github.com/everestp/devops-ci-cd4",
+    ],
+    hoverPosition: { large: "bottom", small: "bottom" },
   },
   {
-    icon: "bx bx-data",
-    title: "Back-End Dev",
+    icon: "bx bxl-docker",
+    title: "Docker & Kubernetes",
     description:
-      "Back-end development powers the functionality behind web applications. I work with Node.js and databases like MongoDB and PostgreSQL to build secure and scalable server-side applications. Whether handling authentication, managing API requests, or optimizing database queries, I ensure data is processed efficiently and securely to support seamless front-end interactions.",
+      "I containerize applications with Docker and manage them using Kubernetes for seamless scaling and deployment.",
     projectCount: 3,
-    hoverPosition: {
-      large: "top",
-      small: "bottom",
-    },
+    links: [
+      "https://github.com/everestp/docker-kubernetes1",
+      "https://github.com/everestp/docker-kubernetes2",
+      "https://github.com/everestp/docker-kubernetes3",
+    ],
+    hoverPosition: { large: "top", small: "bottom" },
   },
   {
-    icon: "bx bxl-github",
-    title: "Git Version Control",
+    icon: "bx bx-network-chart",
+    title: "Microservices",
     description:
-      "Version control is essential for modern web development, and Git is my go-to tool for managing code efficiently. I use GitHub for collaboration, handling pull requests, merging branches, and tracking project changes. Whether working solo or in a team, I ensure code is well-documented, structured, and easily maintainable through proper versioning practices.",
-    projectCount: 3,
-    hoverPosition: {
-      large: "top",
-      small: "bottom",
-    },
+      "I design modular microservices with Spring Boot, API Gateway, and service discovery tools for efficient communication.",
+    projectCount: 4,
+    links: [
+      "https://github.com/everestp/microservices-architecture1",
+      "https://github.com/everestp/microservices-architecture2",
+      "https://github.com/everestp/microservices-architecture3",
+      "https://github.com/everestp/microservices-architecture4",
+    ],
+    hoverPosition: { large: "top", small: "bottom" },
+  },
+  {
+    icon: "bx bxl-aws",
+    title: "Cloud & AWS",
+    description:
+      "I deploy and manage cloud solutions using AWS services like EC2, S3, RDS, and Lambda for cost-efficient performance.",
+    projectCount: 4,
+    links: [
+      "https://github.com/everestp/aws-cloud-deployment1",
+      "https://github.com/everestp/aws-cloud-deployment2",
+      "https://github.com/everestp/aws-cloud-deployment3",
+      "https://github.com/everestp/aws-cloud-deployment4",
+    ],
+    hoverPosition: { large: "top", small: "bottom" },
   },
 ];
+
+
