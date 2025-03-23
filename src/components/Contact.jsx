@@ -1,5 +1,5 @@
 import React from 'react';
-
+import NavigationCircles from "./Navbar";
 const Contact = () => {
   return (
     <div className="h-screen flex flex-col justify-center items-center">
@@ -21,6 +21,7 @@ const Contact = () => {
         />
       
       </form>
+      <NavigationCircles/>
     </div>
   );
 };
